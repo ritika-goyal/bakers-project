@@ -1,0 +1,62 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.photo {
+    height: 400px;
+    width: 500px;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+
+    }
+}
+
+.text-cake {
+    padding-top: 20px;
+    margin-top: 15px;
+    padding-left: 25%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.success{
+  border: 1px solid #1A5D1A;
+  background-color: white;
+  color: #1A5D1A;
+  padding: 5px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 5px 5px 5px 5px; 
+  height: 25px;
+  margin-top: 10px;
+  padding-bottom: 25px;
+}
+
+.button:hover{
+    background-color: #1A5D1A;
+    color: white;
+}
